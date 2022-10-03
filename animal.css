@@ -1,0 +1,134 @@
+*{
+   
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+   
+
+}
+h1{
+    color: aliceblue;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-top: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0,0,0.3);
+    color: #fff;
+   font-style: italic;
+    font-size: 30px;
+    border: 10px inset red;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.slider{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 055%;
+    transform: translate(-50% ,-50%);
+    background-image: url(animal1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 2px 3px 10px red;
+    animation: slider 20s infinite linear;
+    border-radius: 14px;
+}
+@keyframes slider{
+    0%{ background-image: url(animal1.jpg);
+        background-size: 100% 100%;}
+    25%{ background-image: url(animal2.jpg);
+        background-size: 100% 100%;}
+    50%{ background-image: url(animal3.jpg);
+        background-size: 100% 100%;}
+    75%{ background-image: url(animal4.jpg);
+        background-size: 100% 100%;}
+100%{ background-image: url(animal1.jpg);
+    background-size: 100% 100%;}
+
+
+}
+h1:hover{
+    color: black;
+    background-color:red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    font-style: italic;
+    font-display: uppercase;
+    border: black;
+    
+}
+.slider:hover{
+   
+    background-color:red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    
+    
+}
+h3{
+    color: #fff;
+    position: relative;
+    top: 550px;
+    left: 30px;
+}
+h3:hover{
+   
+    background-color: red;
+     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+     margin-right: 1400px;
+     
+ }
+ @media (max-width:880px)
+ {
+     h1{
+         color: aliceblue;
+         font-size: 2.1rem;
+         line-height: 1.4;
+         letter-spacing: 0.5rem;
+         text-align: center;
+         margin-top: 20px;
+         border-top-left-radius: 70px;
+         border-bottom-right-radius: 70px;
+         background-color: rgba(0, 0,0,0.3);
+         color: #fff;
+        font-style: italic;
+         font-size: 30px;
+         border: 10px inset red;
+         margin-left: 100px;
+         margin-right: 100px;
+         margin-bottom: 10px;
+         position: relative;
+         bottom: 50px;
+         top: 16px;
+     }
+     .slider{
+         width: 70%;
+         height: 400px;
+         position: absolute;
+         left: 50%;
+         top: 55%;
+         transform: translate(-50% ,-50%);
+         background-image: url(animal1.jpg);
+         background-size: 100% 100%;
+         box-shadow: 2px 3px 10px red;
+         animation: slider 20s infinite linear;
+         border-radius: 14px;
+     }
+     h3{
+         color: #fff;
+         position: relative;
+         top: 850px;
+         left: 30px;
+         bottom:0px;
+     }
+     h3:hover{
+        
+         background-color: red;
+          box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+          margin-right: 1400px;
+          
+      }
+ }
