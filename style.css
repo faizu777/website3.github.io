@@ -206,7 +206,7 @@ width: 30px;
     .h2{
         color: aliceblue;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%,-10%);
         z-index: 8%;
